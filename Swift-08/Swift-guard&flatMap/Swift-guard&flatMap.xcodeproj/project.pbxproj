@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271B84F21B85B7FB000B691C /* ObjCToSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 271B84F11B85B7FB000B691C /* ObjCToSwift.m */; };
+		27E56CBD1B8468E9006FA3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E56CBC1B8468E9006FA3FB /* AppDelegate.swift */; };
+		27E56CBF1B8468E9006FA3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E56CBE1B8468E9006FA3FB /* ViewController.swift */; };
+		27E56CC21B8468E9006FA3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E56CC01B8468E9006FA3FB /* Main.storyboard */; };
+		27E56CC41B8468E9006FA3FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E56CC31B8468E9006FA3FB /* Images.xcassets */; };
+		27E56CC71B8468E9006FA3FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E56CC51B8468E9006FA3FB /* LaunchScreen.xib */; };
+		27E56CD31B8468E9006FA3FB /* Swift_guard_flatMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E56CD21B8468E9006FA3FB /* Swift_guard_flatMapTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E56CCD1B8468E9006FA3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E56CAF1B8468E9006FA3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E56CB61B8468E9006FA3FB;
+			remoteInfo = "Swift-guard&flatMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		271B84EF1B85B7FB000B691C /* Swift-guard&flatMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-guard&flatMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		271B84F01B85B7FB000B691C /* ObjCToSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCToSwift.h; sourceTree = "<group>"; };
+		271B84F11B85B7FB000B691C /* ObjCToSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCToSwift.m; sourceTree = "<group>"; };
+		27E56CB71B8468E9006FA3FB /* Swift-guard&flatMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-guard&flatMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E56CBB1B8468E9006FA3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E56CBC1B8468E9006FA3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E56CBE1B8468E9006FA3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E56CC11B8468E9006FA3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E56CC31B8468E9006FA3FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27E56CC61B8468E9006FA3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		27E56CCC1B8468E9006FA3FB /* Swift-guard&flatMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-guard&flatMapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E56CD11B8468E9006FA3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E56CD21B8468E9006FA3FB /* Swift_guard_flatMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_guard_flatMapTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E56CB41B8468E9006FA3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E56CC91B8468E9006FA3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E56CAE1B8468E9006FA3FB = {
+			isa = PBXGroup;
+			children = (
+				27E56CB91B8468E9006FA3FB /* Swift-guard&flatMap */,
+				27E56CCF1B8468E9006FA3FB /* Swift-guard&flatMapTests */,
+				27E56CB81B8468E9006FA3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E56CB81B8468E9006FA3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E56CB71B8468E9006FA3FB /* Swift-guard&flatMap.app */,
+				27E56CCC1B8468E9006FA3FB /* Swift-guard&flatMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E56CB91B8468E9006FA3FB /* Swift-guard&flatMap */ = {
+			isa = PBXGroup;
+			children = (
+				27E56CBC1B8468E9006FA3FB /* AppDelegate.swift */,
+				27E56CBE1B8468E9006FA3FB /* ViewController.swift */,
+				271B84F01B85B7FB000B691C /* ObjCToSwift.h */,
+				271B84F11B85B7FB000B691C /* ObjCToSwift.m */,
+				27E56CC01B8468E9006FA3FB /* Main.storyboard */,
+				27E56CC31B8468E9006FA3FB /* Images.xcassets */,
+				27E56CC51B8468E9006FA3FB /* LaunchScreen.xib */,
+				27E56CBA1B8468E9006FA3FB /* Supporting Files */,
+				271B84EF1B85B7FB000B691C /* Swift-guard&flatMap-Bridging-Header.h */,
+			);
+			path = "Swift-guard&flatMap";
+			sourceTree = "<group>";
+		};
+		27E56CBA1B8468E9006FA3FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E56CBB1B8468E9006FA3FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E56CCF1B8468E9006FA3FB /* Swift-guard&flatMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E56CD21B8468E9006FA3FB /* Swift_guard_flatMapTests.swift */,
+				27E56CD01B8468E9006FA3FB /* Supporting Files */,
+			);
+			path = "Swift-guard&flatMapTests";
+			sourceTree = "<group>";
+		};
+		27E56CD01B8468E9006FA3FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E56CD11B8468E9006FA3FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E56CB61B8468E9006FA3FB /* Swift-guard&flatMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E56CD61B8468E9006FA3FB /* Build configuration list for PBXNativeTarget "Swift-guard&flatMap" */;
+			buildPhases = (
+				27E56CB31B8468E9006FA3FB /* Sources */,
+				27E56CB41B8468E9006FA3FB /* Frameworks */,
+				27E56CB51B8468E9006FA3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-guard&flatMap";
+			productName = "Swift-guard&flatMap";
+			productReference = 27E56CB71B8468E9006FA3FB /* Swift-guard&flatMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E56CCB1B8468E9006FA3FB /* Swift-guard&flatMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E56CD91B8468E9006FA3FB /* Build configuration list for PBXNativeTarget "Swift-guard&flatMapTests" */;
+			buildPhases = (
+				27E56CC81B8468E9006FA3FB /* Sources */,
+				27E56CC91B8468E9006FA3FB /* Frameworks */,
+				27E56CCA1B8468E9006FA3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E56CCE1B8468E9006FA3FB /* PBXTargetDependency */,
+			);
+			name = "Swift-guard&flatMapTests";
+			productName = "Swift-guard&flatMapTests";
+			productReference = 27E56CCC1B8468E9006FA3FB /* Swift-guard&flatMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E56CAF1B8468E9006FA3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "常健洪";
+				TargetAttributes = {
+					27E56CB61B8468E9006FA3FB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					27E56CCB1B8468E9006FA3FB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 27E56CB61B8468E9006FA3FB;
+					};
+				};
+			};
+			buildConfigurationList = 27E56CB21B8468E9006FA3FB /* Build configuration list for PBXProject "Swift-guard&flatMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E56CAE1B8468E9006FA3FB;
+			productRefGroup = 27E56CB81B8468E9006FA3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E56CB61B8468E9006FA3FB /* Swift-guard&flatMap */,
+				27E56CCB1B8468E9006FA3FB /* Swift-guard&flatMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E56CB51B8468E9006FA3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E56CC21B8468E9006FA3FB /* Main.storyboard in Resources */,
+				27E56CC71B8468E9006FA3FB /* LaunchScreen.xib in Resources */,
+				27E56CC41B8468E9006FA3FB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E56CCA1B8468E9006FA3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E56CB31B8468E9006FA3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B84F21B85B7FB000B691C /* ObjCToSwift.m in Sources */,
+				27E56CBF1B8468E9006FA3FB /* ViewController.swift in Sources */,
+				27E56CBD1B8468E9006FA3FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E56CC81B8468E9006FA3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E56CD31B8468E9006FA3FB /* Swift_guard_flatMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E56CCE1B8468E9006FA3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E56CB61B8468E9006FA3FB /* Swift-guard&flatMap */;
+			targetProxy = 27E56CCD1B8468E9006FA3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27E56CC01B8468E9006FA3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E56CC11B8468E9006FA3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27E56CC51B8468E9006FA3FB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E56CC61B8468E9006FA3FB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E56CD41B8468E9006FA3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27E56CD51B8468E9006FA3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E56CD71B8468E9006FA3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Swift-guard&flatMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-guard&flatMap/Swift-guard&flatMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E56CD81B8468E9006FA3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Swift-guard&flatMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-guard&flatMap/Swift-guard&flatMap-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		27E56CDA1B8468E9006FA3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-guard&flatMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-guard&flatMap.app/Swift-guard&flatMap";
+			};
+			name = Debug;
+		};
+		27E56CDB1B8468E9006FA3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-guard&flatMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-guard&flatMap.app/Swift-guard&flatMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E56CB21B8468E9006FA3FB /* Build configuration list for PBXProject "Swift-guard&flatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E56CD41B8468E9006FA3FB /* Debug */,
+				27E56CD51B8468E9006FA3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E56CD61B8468E9006FA3FB /* Build configuration list for PBXNativeTarget "Swift-guard&flatMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E56CD71B8468E9006FA3FB /* Debug */,
+				27E56CD81B8468E9006FA3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E56CD91B8468E9006FA3FB /* Build configuration list for PBXNativeTarget "Swift-guard&flatMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E56CDA1B8468E9006FA3FB /* Debug */,
+				27E56CDB1B8468E9006FA3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E56CAF1B8468E9006FA3FB /* Project object */;
+}
